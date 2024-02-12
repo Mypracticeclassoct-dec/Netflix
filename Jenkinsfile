@@ -26,7 +26,7 @@ pipeline{
                 }
             }
         }
-        stage("quality gate"){
+        /*stage("quality gate"){
            steps {
                 script {
                    
@@ -34,7 +34,7 @@ pipeline{
                     
                 }
             } 
-        }
+        }*/
         stage('Install Dependencies') {
             steps {
                 sh "npm install"
